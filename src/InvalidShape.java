@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class InvalidShape {
+public class InvalidShape implements Shape{
+    @Override
+    public void draw() {
+        System.out.println("Invalid shape type provided.");
+    }
 }
